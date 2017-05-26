@@ -1,0 +1,47 @@
+{
+	"type": "checkbox",
+	"id": "sticky_social",
+	"label": "Enable sticky social buttons",
+	"info": "Add sticky social buttons to the side of your website"
+},
+{
+	"type": "select",
+	"id": "sticky_social_side",
+	"label": "Side",
+	"info": "Select which side to show the buttons",
+	"options": [
+		{
+			"value": "left",
+			"label": "Left"
+		},
+		{
+			"value": "right",
+			"label": "Right"
+		}
+	],
+	"default": "right"
+},
+{
+	"type": "text",
+	"id": "sticky_social_margin",
+	"label": "Distance from top (in pixels)",
+	"default": "200"
+},
+{
+	"type": "color",
+	"id": "sticky_social_icon_color",
+	"label": "Icon color",
+	"default": "#333333"
+},
+{
+	"type": "color",
+	"id": "sticky_social_icon_hover",
+	"label": "Icon hover color",
+	"default": "#000000"
+},
+{
+	"type": "checkbox",
+	"id": "sticky_social_mobile",
+	"label": "Enable on mobile",
+	"info": "Show sticky social buttons on mobile devices"
+},

@@ -1,0 +1,47 @@
+.sticky-social-icons {
+	position: fixed;
+	{{ settings.sticky_social_side}}: 0;
+    top: 60px;
+	z-index: 10;
+}
+
+@media (min-width: 768px) {
+	.sticky-social-icons {
+		top: {{ settings.sticky_social_margin}}px;
+	}
+}
+
+.sticky-social-icons .social-icons {
+	margin-bottom: 0;
+}
+
+.sticky-social-icons .ss-icon {
+    color: {{ settings.sticky_social_icon_color }};
+	display: block;
+	font-size: 30px;
+}
+
+.sticky-social-icons .ss-icon:hover {
+	color: {{ settings.sticky_social_icon_hover }};
+}
+
+.sticky-social-icons [class^="icon-"] {
+	margin-right: 4px;
+	margin-left: 4px;
+	padding: 0;
+}
+
+@media (min-width: 768px) {
+  .sticky-social-icons [class^="icon-"] {
+	margin-right: 10px;
+	margin-left: 10px;
+  }
+}
+
+{% if settings.sticky_social_mobile %}
+@media (max-width: 767px) {
+  .sticky-social-icons {
+    display: none;
+  }
+}
+{% endif %}

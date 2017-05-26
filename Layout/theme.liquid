@@ -1,0 +1,4 @@
+{% if settings.sticky_social %}
+	{% include 'sticky-social' %}
+	{{ 'sticky-social.scss' | asset_url | stylesheet_tag }}
+{% endif %}
