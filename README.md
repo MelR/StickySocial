@@ -5,5 +5,5 @@ Add sticky social buttons to Parallax Shopify theme. After setting up, the follo
 2. Stick left or right
 3. Set a top margin
 4. Set the icon colour
-5. Set the icon hover colour\
+5. Set the icon hover colour
 6. Show or hide on mobile
