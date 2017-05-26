@@ -1,0 +1,34 @@
+#Directions
+
+In Shopify, go to Online Store. Make sure Parallax theme is the published theme, and click Edit HTML/CSS in the elipses (...) drop down button.
+
+##Assets
+
+1. Open the provided sticky-social.scss.liquid file and copy the code to your clipboard
+2. In Shopify, open the Assets folder and click the *Add a new asset* link
+2. In the modal pop-up window, click the *Create a blank file* tab, enter *sticky-social* into the name field, and choose .scss.liquid from the file format selection menu. Click the *Add asset* button
+3. Paste in the code from your clipboard
+4. Click *Save*
+
+
+##Config
+
+1. Open the provided settings_schema.json file and copy the code to your clipboard
+2. In Shopify, open the Config folder, and open settings_schema.json. Search for "Social media" (including quotations)
+3. Below "name": "Social media", "settings": [ paste in the code from your clipboard
+4. Click *Save*
+
+##Layout
+
+1. Open the provided theme.liquid file and copy the code to your clipboard
+2. In Shopify, open the Layout folder, and open theme.liquid. Search for *body* to find the opening <body> tag
+3. Just after the opening <body> tag, paste in the code from your clipboard
+4. Click *Save*
+
+##Snippets
+
+1. Open the provided sticky-social.liquid file and copy the code to your clipboard
+2. In Shopify, open the Snippets folder and click the *Add a new snippet* link
+3. After Create a new snippet called type sticky-social and click the *Create snippet* button
+4. Paste in the code from your clipboard
+5. Click *Save*
