@@ -18,22 +18,26 @@
 			"value": "right",
 			"label": "Right"
 		}
-	]
+	],
+	"default": "right"
 },
 {
 	"type": "text",
 	"id": "sticky_social_margin",
-	"label": "Distance from top (in pixels)"
+	"label": "Distance from top (in pixels)",
+	"default": "200"
 },
 {
 	"type": "color",
 	"id": "sticky_social_icon_color",
-	"label": "Icon color"
+	"label": "Icon color",
+	"default": "#333333"
 },
 {
 	"type": "color",
 	"id": "sticky_social_icon_hover",
-	"label": "Icon hover color"
+	"label": "Icon hover color",
+	"default": "#000000"
 },
 {
 	"type": "checkbox",
